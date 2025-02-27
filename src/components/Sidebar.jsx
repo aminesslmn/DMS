@@ -35,7 +35,7 @@ const Sidebar = () => {
         title={title}
       >
         {icon}
-        <span className="ml-3 text-sm font-medium hidden md:inline">{title}</span>
+        <span className="ml-3 text-sm font-medium hidden lg:inline">{title}</span>
       </button>
     );
   };
